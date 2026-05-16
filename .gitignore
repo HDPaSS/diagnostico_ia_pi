@@ -41,3 +41,6 @@ frontend/.flutter-plugins-dependencies
 
 # Firebase
 .firebase/
+
+# Carpetas de pruebas/debug
+Debug_test/
