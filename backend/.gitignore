@@ -1,0 +1,34 @@
+# Credenciales — NUNCA subir a git
+firebase_key.json
+*.json.secret
+
+# Modelos pesados — van en HuggingFace
+backend/model/*.pkl
+backend/model/*.joblib
+backend/model/*.csv
+
+# Entorno virtual
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# backend/.gitignore
+firebase_key.json
+*.pkl
+*.joblib
+*.csv
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,43 @@
+# Credenciales — NUNCA subir a git
+firebase_key.json
+*.json.secret
+
+# Modelos pesados — van en HuggingFace
+backend/model/*.pkl
+backend/model/*.joblib
+backend/model/*.csv
+
+# Entorno virtual
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modelos pesados 
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+backend/model/
+
+# Flutter
+frontend/build/
+frontend/.dart_tool/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+
+# Firebase
+.firebase/

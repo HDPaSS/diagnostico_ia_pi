@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376379382796",
+    "project_id": "illness-predict-pi",
+    "storage_bucket": "illness-predict-pi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376379382796:android:5658e9fceaece6e726a229",
+        "android_client_info": {
+          "package_name": "com.diagnostico.diagnostico_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqQsqugMDZjr3-ZNQq4VWjeQu0p1uhIqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

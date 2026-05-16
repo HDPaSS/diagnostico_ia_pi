@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "illness-predict-pi"
+  }
+}

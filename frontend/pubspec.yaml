@@ -1,0 +1,54 @@
+name: diagnostico_app
+description: "Diagnóstico médico orientativo basado en síntomas mediante IA."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+  # HTTP — llamadas al backend FastAPI
+  http: ^1.2.2
+
+  # UI
+  fl_chart: ^0.69.0
+  google_fonts: ^6.2.1
+
+  # Utilidades
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+  flutter_svg: ^2.0.10
+
+  url_launcher: ^6.3.0   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/body_front.svg
+    - assets/body_back.svg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FFFFFF"   
+  adaptive_icon_foreground: "assets/icon.png"  
+  adaptive_icon_round: false   
+  remove_alpha_ios: false

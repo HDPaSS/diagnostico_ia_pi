@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "illness-predict-pi",
+          "appId": "1:376379382796:android:5658e9fceaece6e726a229",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "illness-predict-pi",
+          "configurations": {
+            "android": "1:376379382796:android:5658e9fceaece6e726a229",
+            "web": "1:376379382796:web:6ebefbe0c810216226a229"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
